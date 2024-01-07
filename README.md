@@ -3,7 +3,7 @@
  Install instructions:
  ```
  # Install Decky Plugin first, Than install CSS Loader Decky Plugin and enable it
- # cd $HOME/homebrew/themes && git clone https://github.com/semakusut/SBP-ROG-Ally
+ # cd $HOME/homebrew/themes && git clone https://github.com/semakusut/SBP-ROG-Ally.git
  ```
 Thanks aru, i edited the script
  ![alt text](https://cdn.discordapp.com/attachments/1106365391871156314/1193469747325579344/P_20240107_151815.jpg?ex=65acd451&is=659a5f51&hm=d196757623aa7ba67624060f3f33362e4f556455ba036704ad880eb3876b1d07&)
