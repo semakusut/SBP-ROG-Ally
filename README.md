@@ -1,7 +1,8 @@
 # SBP-ROG-Ally
  ROG Ally Controller Theme
- Install instructions:
+Install instructions:
  ```
+ # In use with HHD Plugins, install it from https://github.com/hhd-dev/hhd
  # Install Decky Plugin first, Than install CSS Loader Decky Plugin and enable it
  # cd $HOME/homebrew/themes && git clone https://github.com/semakusut/SBP-ROG-Ally.git
  ```
