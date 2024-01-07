@@ -1,0 +1,22 @@
+{
+  "name":"ROG Ally SPB",
+  "author":"semakusut",
+  "version":"v1",
+  "manifest_version":1,
+  "patches":{
+     "Apply":{
+        "type":"dropdown",
+        "default":"ROG Ally",
+        "values":{
+           "ROG Ally":{
+               "ally.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
+           }
+        }
+     }
+   },
+  "id":"2337133713371337"
+}
