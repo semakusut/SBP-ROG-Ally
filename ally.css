@@ -14,6 +14,11 @@
     background-image: url(/themes_custom/SBP-ROG-Ally/Controller_Ally.png);
 }
 
+.controller_xbox360
+.controllerconfiguratorsummary_BackgroundController_rlz-U {
+    background-image: url(/themes_custom/SBP-ROG-Ally/Controller_Ally.png);
+}
+
 /* Face Buttons */
 img[src="/steaminputglyphs/ps_button_square.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/X.png");
