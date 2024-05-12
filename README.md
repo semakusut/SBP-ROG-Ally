@@ -1,12 +1,12 @@
 # SBP-ROG-Ally
  ROG Ally Controller Theme
-Install instructions:
+ Install instructions:<br />
+ - It can be used for universal controller input like InputPlumber (https://github.com/ShadowBlip/InputPlumber), RogueEnemy, and HHD Plugins (https://github.com/hhd-dev/hhd)<br />
+ - Install Decky Plugin first, Than install CSS Loader Decky Plugin and enable it
  ```
- # In use with HHD Plugins, install it from https://github.com/hhd-dev/hhd
- # Install Decky Plugin first, Than install CSS Loader Decky Plugin and enable it
- # cd $HOME/homebrew/themes && git clone https://github.com/semakusut/SBP-ROG-Ally.git
+ cd $HOME/homebrew/themes && git clone https://github.com/semakusut/SBP-ROG-Ally.git
  ```
 Thanks aru, i edited the script
- ![alt text]([https://cdn.discordapp.com/attachments/1106365391871156314/1193469747325579344/P_20240107_151815.jpg?ex=65acd451&is=659a5f51&hm=d196757623aa7ba67624060f3f33362e4f556455ba036704ad880eb3876b1d07&](https://drive.usercontent.google.com/download?id=1CSeanJ6LFYF4NrQPMAZmUPtiJ7WDmE0z&export=download&authuser=0))
- ![alt text](https://cdn.discordapp.com/attachments/1106365391871156314/1193481674034515988/P_20240107_160928.jpg?ex=65acdf6c&is=659a6a6c&hm=16ae329a959cacbaea369297c114ed865b9073a7e9bd89f1738e717e52ab6717&)
- ![alt text](https://cdn.discordapp.com/attachments/1106365391871156314/1193469099712450580/P_20240107_151838.jpg?ex=65acd3b6&is=659a5eb6&hm=e2c453cbbd99665cef66100f252935bdcccba97f261e7b397cfb0570e04fde82&)
+![Screenshot 2024-05-13 062857](https://github.com/semakusut/SBP-ROG-Ally/assets/20986525/35852366-37fa-4bdb-b79b-f4fa3690926c)
+![Screenshot 2024-05-13 062932](https://github.com/semakusut/SBP-ROG-Ally/assets/20986525/ec0efa72-dcc9-46cc-877d-5f97b25ef4ac)
+![Screenshot 2024-05-13 063016](https://github.com/semakusut/SBP-ROG-Ally/assets/20986525/7c53676b-066f-4a7c-82b9-22298d8a42b8)
