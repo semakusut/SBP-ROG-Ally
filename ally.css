@@ -1,59 +1,67 @@
 /* Controller Image */
-.controller_ps5_edge
-.controllerconfiguratorsummary_BackgroundController_rlz-U {
-    background-image: url(/themes_custom/SBP-ROG-Ally/Controller_Ally.png);
-}
-
-.controller_ps5
-.controllerconfiguratorsummary_BackgroundController_rlz-U {
-    background-image: url(/themes_custom/SBP-ROG-Ally/Controller_Ally.png);
-}
-
-.controller_xbox_360
-.controllerconfiguratorsummary_BackgroundController_rlz-U {
-    background-image: url(/themes_custom/SBP-ROG-Ally/Controller_Ally.png);
+.controller_ps5 .controllerconfiguratorsummary_BackgroundController_rlz-U,
+.controller_ps5_edge .controllerconfiguratorsummary_BackgroundController_rlz-U,
+.controller_generic .controllerconfiguratorsummary_BackgroundController_rlz-U,
+.controller_xbox_elite .controllerconfiguratorsummary_BackgroundController_rlz-U,
+.controller_xbox_one .controllerconfiguratorsummary_BackgroundController_rlz-U,
+.controller_xbox_one_x .controllerconfiguratorsummary_BackgroundController_rlz-U,
+.controller_xbox_360 .controllerconfiguratorsummary_BackgroundController_rlz-U {
+    background-image: url(/themes_custom/SBP-ROG-Ally/ally-buttons/Controller.png);
 }
 
 /* Face Buttons */
-img[src="/steaminputglyphs/ps_button_square.svg"] {
+img[src="/steaminputglyphs/ps_button_square.svg"],
+img[src="/steaminputglyphs/shared_color_button_x.svg"],
+img[src="/steaminputglyphs/shared_button_x.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/X.png");
     transform: scale(0.88);
 }
-img[src="/steaminputglyphs/ps_button_triangle.svg"] {
+img[src="/steaminputglyphs/ps_button_triangle.svg"],
+img[src="/steaminputglyphs/shared_color_button_y.svg"],
+img[src="/steaminputglyphs/shared_button_y.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Y.png");
     transform: scale(0.88);
 }
-img[src="/steaminputglyphs/ps_button_circle.svg"] {
+img[src="/steaminputglyphs/ps_button_circle.svg"],
+img[src="/steaminputglyphs/shared_color_button_b.svg"],
+img[src="/steaminputglyphs/shared_button_b.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/B.png");
     transform: scale(0.88);
 }
-img[src="/steaminputglyphs/ps_button_x.svg"] {
+img[src="/steaminputglyphs/ps_button_x.svg"],
+img[src="/steaminputglyphs/shared_color_button_a.svg"],
+img[src="/steaminputglyphs/shared_button_a.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/A.png");
     transform: scale(0.88);
 }
 
 /* Shoulder Buttons */
-img[src="/steaminputglyphs/ps5_r1.svg"] {
-    content: url("/steaminputglyphs/xbox_rb.svg");
+img[src="/steaminputglyphs/ps5_r1.svg"],
+img[src="/steaminputglyphs/xbox_rb.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/RB.png");
+}
+img[src="/steaminputglyphs/ps5_l1.svg"],
+img[src="/steaminputglyphs/xbox_lb.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/LB.png");
+}
+img[src="/steaminputglyphs/ps5_r2.svg"],
+img[src="/steaminputglyphs/xbox_rt.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/RT.png");
     transform: scale(0.88);
 }
-img[src="/steaminputglyphs/ps5_l1.svg"] {
-    content: url("/steaminputglyphs/xbox_lb.svg");
+img[src="/steaminputglyphs/ps5_l2.svg"],
+img[src="/steaminputglyphs/xbox_lt.svg"],
+img[src="/steaminputglyphs/sd_l2.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/LT.png");
     transform: scale(0.88);
 }
-img[src="/steaminputglyphs/ps5_r2.svg"] {
-    content: url("/steaminputglyphs/xbox_rt.svg");
-    transform: scale(0.88);
-}
-img[src="/steaminputglyphs/ps5_l2.svg"] {
-    content: url("/steaminputglyphs/xbox_lt.svg");
-    transform: scale(0.88);
-}
-img[src="/steaminputglyphs/ps5_r2_soft.svg"] {
+img[src="/steaminputglyphs/ps5_r2_soft.svg"],
+img[src="/steaminputglyphs/xbox_rt_soft.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/RT-soft.png");
     transform: scale(0.88);
 }
-img[src="/steaminputglyphs/ps5_l2_soft.svg"] {
+img[src="/steaminputglyphs/ps5_l2_soft.svg"],
+img[src="/steaminputglyphs/xbox_lt_soft.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/LT-soft.png");
     transform: scale(0.88);
 }
@@ -63,112 +71,144 @@ img[src="/steaminputglyphs/shared_dpad"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Dpad.png");
     transform: scale(0.88);
 }
+img[src="/steaminputglyphs/shared_dpad_up.svg"],
 img[src="/steaminputglyphs/ps_dpad_up.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Dpad-up.png");
     transform: scale(0.88);
 }
+img[src="/steaminputglyphs/shared_dpad_left.svg"],
 img[src="/steaminputglyphs/ps_dpad_left.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Dpad-left.png");
     transform: scale(0.88);
 }
+img[src="/steaminputglyphs/shared_dpad_right.svg"],
 img[src="/steaminputglyphs/ps_dpad_right.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Dpad-right.png");
     transform: scale(0.88);
 }
+img[src="/steaminputglyphs/shared_dpad_down.svg"],
 img[src="/steaminputglyphs/ps_dpad_down.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Dpad-down.png");
     transform: scale(0.88);
 }
 
-/* Right Stick */
-img[src="/steaminputglyphs/shared_rstick_up.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/R-stick-up.png");
-    transform: scale(0.88);
-}
-img[src="/steaminputglyphs/shared_rstick_left.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/R-stick-left.png");
-    transform: scale(0.88);
-}
-img[src="/steaminputglyphs/shared_rstick_down.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/R-stick-down.png");
-    transform: scale(0.88);
-}
-img[src="/steaminputglyphs/shared_rstick_right.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/R-stick-right.png");
-    transform: scale(0.88);
-}
-img[src="/steaminputglyphs/shared_r3.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/R-stick-click.png");
-    transform: scale(0.88);
-}
-
 /* Left Stick */
 img[src="/steaminputglyphs/shared_lstick_up.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/L-stick-up.png");
+    content: url("/themes_custom/handheld-controller-glyphs/assets/shared/L-stick-up.png");
     transform: scale(0.88);
 }
 img[src="/steaminputglyphs/shared_lstick_left.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/L-stick-left.png");
+    content: url("/themes_custom/handheld-controller-glyphs/assets/shared/L-stick-left.png");
     transform: scale(0.88);
 }
 img[src="/steaminputglyphs/shared_lstick_down.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/L-stick-down.png");
+    content: url("/themes_custom/handheld-controller-glyphs/assets/shared/L-stick-down.png");
     transform: scale(0.88);
 }
 img[src="/steaminputglyphs/shared_lstick_right.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/L-stick-right.png");
+    content: url("/themes_custom/handheld-controller-glyphs/assets/shared/L-stick-right.png");
     transform: scale(0.88);
 }
 img[src="/steaminputglyphs/shared_l3.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/L-stick-click.png");
     transform: scale(0.88);
 }
-
-/* Back buttons */
-/*
-img[src="/steaminputglyphs/ps_lb.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Y2.png");
-    transform: scale(0.88);
-}*/
-img[src="/steaminputglyphs/ps_lfn.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/M2.png");
+img[src="/steaminputglyphs/shared_lstick.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/L-stick.png");
     transform: scale(0.88);
 }
-/*
-img[src="/steaminputglyphs/ps_rb.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/M3.png");
+
+/* Right Stick */
+img[src="/steaminputglyphs/shared_rstick_up.svg"] {
+    content: url("/themes_custom/handheld-controller-glyphs/assets/shared/R-stick-up.png");
     transform: scale(0.88);
-}*/
-img[src="/steaminputglyphs/ps_rfn.svg"] {
+}
+img[src="/steaminputglyphs/shared_rstick_left.svg"] {
+    content: url("/themes_custom/handheld-controller-glyphs/assets/shared/R-stick-left.png");
+    transform: scale(0.88);
+}
+img[src="/steaminputglyphs/shared_rstick_down.svg"] {
+    content: url("/themes_custom/handheld-controller-glyphs/assets/shared/R-stick-down.png");
+    transform: scale(0.88);
+}
+img[src="/steaminputglyphs/shared_rstick_right.svg"] {
+    content: url("/themes_custom/handheld-controller-glyphs/assets/shared/R-stick-right.png");
+    transform: scale(0.88);
+}
+img[src="/steaminputglyphs/shared_r3.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/R-stick-click.png");
+    transform: scale(0.88);
+}
+img[src="/steaminputglyphs/shared_rstick.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/R-stick.png");
+    transform: scale(0.88);
+}
+
+/* Back buttons */
+img[src="/steaminputglyphs/ps_lfn.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/M1.png");
     transform: scale(0.88);
 }
+img[src="/steaminputglyphs/ps_rfn.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/M2.png");
+    transform: scale(0.88);
+}
 
-/* Leftovers */
+/* Others */
+img[src="/steaminputglyphs/xbox360_button_select.svg"],
 img[src="/steaminputglyphs/ps5_button_create.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/View.png");
     transform: scale(0.88);
 }
+img[src="/steaminputglyphs/xbox360_button_start.svg"],
 img[src="/steaminputglyphs/ps5_button_options.svg"] {
     content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Menu.png");
     transform: scale(0.88);
 }
-img[src="/steaminputglyphs/sd_l2.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/LT.png");
+img[src="/steaminputglyphs/sd_ltrackpad_swipe.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Trackpad.png");
+    transform: scale(0.88);
+}
+img[src="/steaminputglyphs/xbox_button_logo.svg"],
+img[src="/steaminputglyphs/ps4_button_logo.svg"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Command-Center.png");
     transform: scale(0.88);
 }
 
-img[src="/steaminputglyphs/sd_ltrackpad_swipe.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/trackpad.png");
-    transform: scale(0.88);
+/* Lockscreen */
+.lockscreen_NumericButtonOption_2c4Hz img {
+    margin-left: -14px;
+    transform: scale(0.5);
 }
-img[src="/steaminputglyphs/ps4_button_logo.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Command_Center.png");
-    transform: scale(0.88);
+
+/* Controller Settings */
+img[src="/images/steamdeck_right.png"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Controller-right.png");
 }
-/*
-img[src="/steaminputglyphs/ps_button_mute.svg"] {
-    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/M2.png");
-    transform: scale(0.88);
+img[src="/images/steamdeck_left.png"] {
+    content: url("/themes_custom/SBP-ROG-Ally/ally-buttons/Controller-left.png");
 }
-*/
+.controllersettings_devicecalibration_StartTestPrompt_3Ipg_ img[src="/steaminputglyphs/shared_color_button_y.svg"],
+.controllersettings_devicecalibration_StartTestPrompt_3Ipg_ img[src="/steaminputglyphs/ps_button_triangle.svg"] {
+    transform: scale(0.5);
+}
+
+/* Tab Controls */
+.gamepadtabbedpage_TabRow_19z_5 img[src="/steaminputglyphs/xbox_lb.svg"],
+.gamepadtabbedpage_TabRow_19z_5 img[src="/steaminputglyphs/ps5_l1.svg"] {
+    transform: scale(0.5);
+}
+.gamepadtabbedpage_TabRow_19z_5 img[src="/steaminputglyphs/xbox_rb.svg"],
+.gamepadtabbedpage_TabRow_19z_5 img[src="/steaminputglyphs/ps5_r1.svg"] {
+    transform: scale(0.5);
+}
+
+/* Keyboard */
+.virtualkeyboard_KeyboardEmojiHeader_Qihxj img[src="/steaminputglyphs/xbox_rb.svg"],
+.virtualkeyboard_KeyboardEmojiHeader_Qihxj img[src="/steaminputglyphs/ps5_r1.svg"] {
+    transform: scale(0.5);
+}
+.virtualkeyboard_KeyboardEmojiHeader_Qihxj img[src="/steaminputglyphs/xbox_lb.svg"],
+.virtualkeyboard_KeyboardEmojiHeader_Qihxj img[src="/steaminputglyphs/ps5_l1.svg"] {
+    transform: scale(0.5);
+}
